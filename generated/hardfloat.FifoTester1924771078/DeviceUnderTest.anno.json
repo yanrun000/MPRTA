@@ -1,0 +1,32 @@
+[
+  {
+    "class":"firrtl.transforms.CombinationalPath",
+    "sink":"~DeviceUnderTest|DeviceUnderTest>io_out",
+    "sources":[
+      "~DeviceUnderTest|DeviceUnderTest>io_a",
+      "~DeviceUnderTest|DeviceUnderTest>io_b"
+    ]
+  },
+  {
+    "class":"logger.LogLevelAnnotation",
+    "globalLogLevel":{
+      
+    }
+  },
+  {
+    "class":"firrtl.options.TargetDirAnnotation",
+    "directory":"generated/hardfloat.FifoTester1924771078"
+  },
+  {
+    "class":"firrtl.EmitCircuitAnnotation",
+    "emitter":"firrtl.LowFirrtlEmitter"
+  },
+  {
+    "class":"firrtl.transforms.BlackBoxTargetDirAnno",
+    "targetDir":"generated/hardfloat.FifoTester1924771078"
+  },
+  {
+    "class":"firrtl.options.OutputAnnotationFileAnnotation",
+    "file":"DeviceUnderTest"
+  }
+]

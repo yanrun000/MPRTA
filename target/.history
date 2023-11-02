@@ -1,0 +1,7 @@
+runMain test
+runMain DeviceUnderTest
+runMain WaveformCounterSpec
+runMain WaveformCounter
+runMain WaveformCounterTester
+exit
+ testOnly FifoTester
